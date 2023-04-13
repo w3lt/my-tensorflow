@@ -245,7 +245,7 @@ class Model:
         else:
             plt.plot(range(len(self.costs)), self.costs)
             plt.title("Training cost")
-            plt.xlabel("Training epoch")
+            plt.xlabel("Epoch")
             plt.ylabel("Cost")
             plt.show()
         
