@@ -35,11 +35,13 @@ model.fit(X_train, y_train,
 model.showTrainingCost()
 
 # predict on whole dataset
+print("Predicting result on whole dataset")
 y_pred = model.predict(X)
 print(nn.confusionMatrix(y_pred, y))
 print(nn.accuracy(y_pred, y))
 
 # predict on test dataset
+print("Predicting result on test dataset")
 y_pred = model.predict(X_test)
 print(nn.confusionMatrix(y_pred, y_test))
 print(nn.accuracy(y_pred, y_test))
