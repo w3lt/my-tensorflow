@@ -4,7 +4,7 @@
 ```
 git clone https://github.com/revlis-12/my-tensorflow.git
 cd my-tensorflow
-chmod 100 submitssion_gen.sh
+chmod +x submitssion_gen.sh
 ./submitssion_gen.sh
 ```
 
