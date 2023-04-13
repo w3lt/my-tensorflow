@@ -9,4 +9,9 @@ chmod +x submitssion_gen.sh
 cd ..
 ```
 
+## How to test ?
+```
+python3 nn.py
+```
+
 ## Hope you all best :>
